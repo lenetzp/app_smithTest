@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6772398e8503ba43aa7234cc_594d690f-dde3-4c73-a88f-bc06a36cab1b",
-  "id": "Mgs.persons_UpdateQuery",
+  "id": "Mgs.persons.x_UpdateQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
     },
     "executeOnLoad": false,
     "name": "UpdateQuery",
-    "pageId": "Mgs.persons",
+    "pageId": "Mgs.persons.x",
     "userSetOnLoad": false
   }
 }

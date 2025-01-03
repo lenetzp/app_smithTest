@@ -1,6 +1,7 @@
 {
   "gitSyncId": "6772398e8503ba43aa7234cc_557d16e9-17b8-4a94-ba07-a16febb75d77",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Mgs.persons",
-    "slug": "mgs-persons"
+    "name": "Mgs.persons.x",
+    "slug": "mgs-persons-x"
   }
 }

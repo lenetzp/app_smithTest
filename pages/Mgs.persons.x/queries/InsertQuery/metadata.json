@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "6772398e8503ba43aa7234cc_8601aacb-3a50-45af-b0c4-2c66ecc81091",
-  "id": "Mgs.persons_DeleteQuery",
+  "gitSyncId": "6772398e8503ba43aa7234cc_64696024-5010-4325-8d5b-2cbdef083ce7",
+  "id": "Mgs.persons.x_InsertQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "DELETE FROM mgs.\"persons\"\n  WHERE \"id\" = {{data_table.triggeredRow.id}};",
+      "body": "INSERT INTO mgs.\"persons\" (\n\t\"first_name\",\n\t\"last_name\",\n\t\"email\",\n\t\"phone\")\nVALUES (\n\t'{{insert_form.formData.first_name}}',\n\t'{{insert_form.formData.last_name}}',\n\t'{{insert_form.formData.email}}',\n\t'{{insert_form.formData.phone}}');",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -23,8 +23,8 @@
       "pluginId": "postgres-plugin"
     },
     "executeOnLoad": false,
-    "name": "DeleteQuery",
-    "pageId": "Mgs.persons",
+    "name": "InsertQuery",
+    "pageId": "Mgs.persons.x",
     "userSetOnLoad": false
   }
 }

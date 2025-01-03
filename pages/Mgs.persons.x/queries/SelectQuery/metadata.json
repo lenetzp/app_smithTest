@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6772398e8503ba43aa7234cc_95394528-f58c-4f8e-ac9e-ebd4a49f78ee",
-  "id": "Mgs.persons_SelectQuery",
+  "id": "Mgs.persons.x_SelectQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
     },
     "executeOnLoad": true,
     "name": "SelectQuery",
-    "pageId": "Mgs.persons",
+    "pageId": "Mgs.persons.x",
     "userSetOnLoad": true
   }
 }
