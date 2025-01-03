@@ -1,0 +1,10 @@
+INSERT INTO mgs."persons" (
+	"first_name",
+	"last_name",
+	"email",
+	"phone")
+VALUES (
+	'{{insert_form.formData.first_name}}',
+	'{{insert_form.formData.last_name}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.phone}}');
